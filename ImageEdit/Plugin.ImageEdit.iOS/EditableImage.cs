@@ -169,7 +169,7 @@ namespace Plugin.ImageEdit
             var mono = new CIColorMonochrome {
                 Color = CIColor.FromRgb(1, 1, 1),
                 Intensity = 1.0f,
-                Image = CIImage.FromCGImage(_image.CGImage)
+                InputImage = CIImage.FromCGImage(_image.CGImage)
             };
             CIImage output = mono.OutputImage;
             var context = CIContext.FromOptions(null);
