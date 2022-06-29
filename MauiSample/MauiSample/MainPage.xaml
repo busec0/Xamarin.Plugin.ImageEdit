@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+						 x:Name="MainP"
+             x:Class="MauiSample.MainPage">
+			 
+		<StackLayout>
+				<StackLayout Orientation="Horizontal" VerticalOptions="Start" >
+						<Button Text="Pick" Clicked="Pick_Clicked"/>
+						<Button Text="ToMonochrome" Clicked="ToMonochrome_Clicked"/>
+						<Button Text="Resize(maxlongside)" Clicked="Resize_Clicked" />
+				</StackLayout>
+				<Image Source="{Binding Image, Source={x:Reference MainP}}" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+	</StackLayout>
+ 
+</ContentPage>
+

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
-		<id>Xamarin.Plugin.ImageEdit</id>
-		<version>1.0.0</version>
-		<title>Image Edit Plugin for Xamarin</title>
+		<id>Xamarin.Plugin.ImageEdit.NET</id>
+		<version>2.0.0-alpha1</version>
+		<title>Image Edit Plugin for .NET - iOS and Android</title>
 		<authors>kamu, busec0</authors>
 		<owners>kamu, busec0</owners>
 		<licenseUrl>https://github.com/busec0/Xamarin.Plugin.ImageEdit/blob/master/LICENSE.txt</licenseUrl>
@@ -14,7 +14,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>
 		Forked from https://github.com/muak/Xamarin.Plugin.ImageEdit and added support for MAUI and net6.  
-		
+
          Works with .NET 6 and MAUI iOS and Android applications. This plugin will enable you to manipulate(resize,crop,rotate,monochrome) a image(png,jpg).
 		</description>
 		<summary></summary>
