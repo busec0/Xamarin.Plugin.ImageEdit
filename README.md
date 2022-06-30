@@ -4,21 +4,18 @@ This plugin will enable you to manipulate(resize,crop,rotate) and filter(monochr
 
 ### Setup
 
-* Available on NuGet: https://www.nuget.org/packages/Xamarin.Plugin.ImageEdit/
-* Install into your .NETStandard project and each platform project.
+* Available on NuGet: https://www.nuget.org/packages/Xamarin.Plugin.ImageEdit.NET/2.0.0-alpha1
+* Install into your .Net6 Projects - MAUI (iOS and Android)
 
-```bash
-Install-Package Xamarin.Plugin.ImageEdit
-```
 
 **Platform Support**
 
 |Platform|Supported|Version|
 | ------------------- | :-----------: | :------------------: |
-|Xamarin.iOS|Yes|iOS 9+|
-|Xamarin.Android|Yes|API 22+|
+|net6.0-ios|Yes||
+|net6.0-android|Yes||
 |Windows 10 UWP|No||
-|Xamarin.Mac|No||
+|MacoS|No||
 
 ## Usage example
 
